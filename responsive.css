@@ -211,12 +211,13 @@
     }
 
     .stats {
-        width: 85%;
+        width: 95%;
     }
 
     .middle {
-        border-left: 1px;
-        border-right: 1px;
+        padding: 0 10px;
+        border-left: #bebebe solid 1px;
+        border-right: #bebebe solid 1px;
     }
 }
 
