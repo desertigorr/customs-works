@@ -32,27 +32,26 @@
 
 .adv-block__img {
     align-self: center;
+    margin-top: 20px;
 }
 
-.adv-block__descr, .adv-block__name {
-    margin-left: 30px;
-}
 
 .adv-block__name {
     font-size: 20px;
     font-weight: 700;
     color: #045d1d;
     margin-top: 15px;
+    padding: 0 40px;
 }
 .adv-block__descr {
     font-size: 16px;
     color: rgba(0, 0, 0, 0.5);
-    width: 80%;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0.03em;
     margin-top: 10px;
     margin-bottom: 30px;
+    padding: 20px 40px;
 }
 .block-header {
     font-size: 30px;
@@ -80,9 +79,9 @@
     width: 100%;
     height: max-content;
 }
-/* .services {
+.services {
     transform: translate(0, 10%);
-} */
+}
 
 
 .service-img__img {
@@ -101,6 +100,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
+    padding-bottom: 100px;
 }
 
 .service-list__text {
@@ -115,7 +115,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .service-list__right {
     justify-content: flex-start;
@@ -131,6 +131,7 @@
     padding: 10px 15px;
     width: fit-content;
     margin: 2px;
+    font-weight: 600;
 }
 
 .mar-top {
@@ -148,7 +149,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    transform: translate(0, 10%);
+    transform: translate(0, 5%);
 }
 
 .diplomas-block {
@@ -161,9 +162,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    font-family: 'Inter', sans-serif;
-    width: 230px;
-    height: 650px;
+    font-family: 'Jost', sans-serif;
+    width: 250px;
+    height: 680px;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
     border-radius: 24px;
     margin: 10px;
@@ -172,20 +173,22 @@
 }
 
 .pack__name {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
-    margin: 15px 0;
+    padding: 25px 20px 0;
     align-self: flex-start;
-    margin-left: 20px;
+    display: flex;
 }
 
 .pack__list {
     width: 70%;
+    padding: 10px;
 }
 
 .pack__feature {
-    margin: 10px 0;
+    margin: 15px 0;
     list-style-type: none;
+    font-weight: 400;
 }
 
 .unavailable {
@@ -249,6 +252,7 @@ li:before {
     padding: 2px 5px;
     border-radius: 5px;
     font-size: 16px;
+    transform: translate(25px, 0);
 }
 
 .dip {
