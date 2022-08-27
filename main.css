@@ -317,6 +317,14 @@ li:before {
     width: 100%;
 }
 
+.carousel-indicators {
+    transform: translate(0, 40px);
+}
+
+.carousel-inner {
+    border-radius: 20px;
+}
+
 .que {
     margin: 40px 0;
 }
