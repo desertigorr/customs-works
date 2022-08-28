@@ -17,3 +17,13 @@ a {
 b {
     font-weight: 700;
 }
+
+button > a {
+    color: #fff;
+}
+
+a:hover {
+    color: rgb(3, 193, 44);
+    transition: 100ms;
+}
+

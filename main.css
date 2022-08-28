@@ -213,6 +213,10 @@ li:before {
     font-weight: bold;
 }
 
+.optimal {
+    color: #057c2d;
+}
+
 .pack__button {
     font-size: 16px;
     color: #fff;
