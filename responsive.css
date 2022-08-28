@@ -84,6 +84,10 @@
     .company-descr {
         font-size: 25px;
     }
+    .service-img {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width:830px) {
@@ -149,6 +153,9 @@
         min-height: 90px;
         box-shadow: 0px 0px 100px -12px rgba(0, 0, 0, 0.25);
     }
+    .details {
+        width: 80%;
+    }
 }
 
 @media screen and (max-width:570px) {
@@ -192,12 +199,26 @@
     }
 
     .block-header {
-        font-size: 24px;
-        width: 80%;
+        font-size: 30px;
         text-align: center;
     }
     .stats {
         min-height: 60px;
+        margin-top: 20%;
+    }
+
+    #deadlines {
+        margin-bottom: 60px;
+    }
+
+    .whoops {
+        font-size: 40px;
+    }
+    .details {
+        font-size: 15px;
+    }
+    .emoji {
+        width: 30px;
     }
 }
 
@@ -221,6 +242,15 @@
         padding: 0 10px;
         border-left: #bebebe solid 1px;
         border-right: #bebebe solid 1px;
+    }
+    .adv-block__name {
+        font-size: 16px;
+    }
+    .whoops {
+        font-size: 30px;
+    }
+    .details {
+        font-size: 14px;
     }
 }
 
