@@ -27,3 +27,7 @@ a:hover {
     transition: 100ms;
 }
 
+.accordion-button:not(.collapsed) {
+    color: #057c2d;
+    background: #c0ffd2;
+}

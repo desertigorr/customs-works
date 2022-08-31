@@ -132,8 +132,14 @@
     width: fit-content;
     margin: 2px;
     font-weight: 600;
+    transition: 150ms;
 }
 
+.service-name:hover {
+    background: #00a56e;
+    box-shadow: 0 0 30px 0 #00a56e;
+    transform: 150ms;
+}
 .mar-top {
     margin-top: 50px;
 }

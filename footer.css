@@ -6,3 +6,10 @@
 .footers {
     height: 100%;
 }
+
+.text-center {
+    margin: 10px;
+}
+.italic {
+    font-style: italic;
+}
